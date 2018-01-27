@@ -23,12 +23,12 @@ button::-moz-focus-inner {
 Стандартный цвет плейсхолдера
 ########## */
 
-input, textarea {
-
-  &::placeholder {
-    color: $color-placeholder;
-  }
-}
+// input, textarea {
+//
+//   &::placeholder {
+//     color: $color-placeholder;
+//   }
+// }
 
 /* ##########
 Настройки для автозаполнения Chrome
