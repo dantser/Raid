@@ -1,10 +1,11 @@
-.header {
+.menu {
   z-index: 100;
-  width: 100%;
   background-color: transparent;
   box-sizing: border-box;
   transition: background-color $ease-main;
   min-height: 54px;
+  max-width: 30%;
+  position: fixed;
 
   &.header_bg {
     background-color: $color-white !important;
@@ -24,7 +25,6 @@
 
   &__wrapper {
     position: relative;
-    border-bottom: 1px solid $color-border;
   }
 
   &__logo {
@@ -49,7 +49,7 @@
   }
 
   &__nav {
-    padding: 53px 60px;
+    // padding: 0 53px;
 
     // &-wrapper {
     //   display: flex;
@@ -79,7 +79,7 @@
 
     &-group {
       display: flex;
-      flex-flow: row nowrap;
+      flex-flow: column nowrap;
       justify-content: space-between;
 
       &:not(:last-child) {
@@ -96,10 +96,10 @@
 
     &-item {
       display: inline-flex;
-      margin-right: 48px;
+      margin-bottom: 48px;
 
       &:last-child {
-        margin-right: 0;
+        margin-bottom: 0;
       }
     }
   }

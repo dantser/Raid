@@ -1,12 +1,10 @@
 include _externalIncludes
 include _internalIncludes
-include ../components/header/header
 
 doctype html
 html(lang='ru')
   include head
   body
-    +header()
     block content
     script(src='assets/scripts/app.min.js')
     script(src='assets/scripts/main.js')

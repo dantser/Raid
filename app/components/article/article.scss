@@ -1,0 +1,14 @@
+.article {
+  width: 70%;
+  margin-left: 30%;
+
+  &__title {
+    text-align: center;
+  }
+
+  &__image {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
+}

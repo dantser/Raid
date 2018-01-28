@@ -1,0 +1,12 @@
+extends ../../layouts/default
+include ../../components/article/article
+include ../../components/menu/menu
+
+block head
+  - var pageTitle = 'Raids-Escort'
+
+block content
+  +b.index
+    .container
+      +menu()
+      +article()
