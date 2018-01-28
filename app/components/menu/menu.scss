@@ -158,7 +158,9 @@
   &_fill {
     background-color: $color-white !important;
   }
-
+  @media (max-width: 768px) {
+    display: none;
+  }
   // @media (max-width: 1300px) {
   //
   //   &__logo {
