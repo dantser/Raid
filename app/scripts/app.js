@@ -10,8 +10,10 @@ import slider from '../blocks/slider/slider';
 import tooltips from '../blocks/tooltip/tooltip';
 import tabs from '../blocks/tabs/tabs';
 import maps from '../blocks/map/map';
+import upbutton from '../blocks/button-top/button-top';
 import '../blocks/rating/rating';
 import '../blocks/accordion/accordion';
+import hideCont from '../components/article/article';
 
 const $ = window.$;
 
@@ -32,4 +34,6 @@ $(() => {
   numberinput();
   maps();
   scrollanimation();
+  upbutton();
+  hideCont();
 });

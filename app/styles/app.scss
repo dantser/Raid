@@ -18,8 +18,18 @@
   margin: 0 auto;
   max-width: 100%;
   box-sizing: border-box;
+  background-color: $color-white;
+  padding-top: 40px;
 }
 
 .js-sr {
   visibility: hidden;
+}
+
+body {
+  background-image: url('../images/bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
 }

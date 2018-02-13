@@ -1,0 +1,33 @@
+.button-top {
+    // background: url("/images/up.png") no-repeat top left;
+    height: 40px;
+    width: 40px;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+    display: none;
+    position: fixed;
+    z-index: 999;
+    background-color: rgba(124, 124, 124, .4);
+    border-radius: 10%;
+    box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, .5);
+
+    svg {
+      fill: $color-basic;
+      width: 50%;
+      height: 50%;
+      opacity: .7;
+      @include center-block;
+      transform: translate(-50%, -50%) rotate(-90deg);
+    }
+
+    @media (min-width: 1380px) {
+      background-color: rgba(255, 255, 255, 1);
+      bottom: 50px;
+      box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, .75);
+
+      svg {
+        opacity: 1;
+      }
+    }
+  }

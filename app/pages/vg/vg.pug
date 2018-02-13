@@ -1,12 +1,12 @@
 extends ../../layouts/default
-include ../../components/article/article
+include ../../components/article/vg
 include ../../components/menu/menu
 
 block head
-  - var pageTitle = 'Raids - Escort'
+  - var pageTitle = 'Raids - Vale Guardian'
 
 block content
   +b.index
     .container
       +menu()
-      +article()
+      +article-vg()

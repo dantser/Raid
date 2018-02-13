@@ -4,8 +4,9 @@
   box-sizing: border-box;
   transition: background-color $ease-main;
   min-height: 54px;
-  max-width: 20%;
+  max-width: 15%;
   position: fixed;
+  padding-right: 20px;
 
   &.header_bg {
     background-color: $color-white !important;
@@ -25,6 +26,10 @@
 
   &__wrapper {
     position: relative;
+    // padding: 0 20px;
+    // border: 2px solid $color-border;
+    // border-bottom: 0;
+    // border-top: 0;
   }
 
   &__logo {
@@ -96,7 +101,7 @@
 
     &-item {
       display: inline-flex;
-      margin-bottom: 48px;
+      margin-bottom: 24px;
 
       &:last-child {
         margin-bottom: 0;
@@ -113,6 +118,13 @@
 
   &__link {
     letter-spacing: .127em;
+  }
+
+  .inactive {
+
+    .link__text {
+      color: $color-gray;
+    }
   }
 
   // модификатор при черном фоне

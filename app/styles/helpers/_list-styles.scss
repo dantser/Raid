@@ -12,15 +12,15 @@
   }
 }
 
-@mixin ullist {
-
-  li::before {
-    position: absolute;
-    left: 0;
-    top: 0;
-    content: '•';
-  }
-}
+// @mixin ullist {
+//
+//   li::before {
+//     position: absolute;
+//     left: 0;
+//     top: 0;
+//     content: '•';
+//   }
+// }
 
 @mixin ollist {
   counter-reset: list1;
